@@ -125,9 +125,10 @@ body {
   width: 100%;
   display: flex;
   position: absolute;
+  top:79px;
   justify-content: center;
   align-items: center;
-  margin-top: -479px;
+/*   margin-top: -479px; */
 }
 .form-container {
   width: 320px;
