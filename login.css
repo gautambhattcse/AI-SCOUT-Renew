@@ -256,8 +256,3 @@ body {
   color: #d3d3d3;
 }
 
-@media only screen and (min-width: 1025px){
-.login-right{
-    margin-top: -758px;
-}
-}
