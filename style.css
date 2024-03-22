@@ -272,6 +272,44 @@ main .heroSection{
   font-weight: bolder;
   color: grey;
 }
+
+.search-box{
+  width: 50%;
+  height: 5rem;
+  /* background-color: #000; */
+  border: 4px solid #4e2aa4;
+  border-radius: 75px;
+  margin-top: -209px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-box input{
+  width: 26.9rem;
+  height: 4rem;
+  margin-top: -10px;
+  background: none;
+  border: 0;
+  border-radius: 75px;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.search-icon-box{
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 77px;
+  height: 76px;
+  border-radius: 50%;
+}
+.search-box .search-icon{
+  /* size-adjust: 2px; */
+  height: 57px;
+  width: 55px;
+
+}
 .anchor {
   position: relative;
   left: -43%;
