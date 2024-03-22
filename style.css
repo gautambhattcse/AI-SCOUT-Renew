@@ -258,7 +258,7 @@ main .heroSection{
   width: 100%;
   gap: 220px;
   height: 100%;
-  margin-top: 73px;
+  margin-top: -35px;
   justify-content: center;
   align-items: center;
 }
