@@ -297,6 +297,7 @@ main .heroSection{
   border: 0;
   outline:0;
   border-radius: 75px;
+  color:#e8e8e8;
   font-size: 20px;
   margin-top: 5px;
 }
