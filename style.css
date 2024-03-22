@@ -283,6 +283,7 @@ main .heroSection{
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-left: 5px;
 }
 .search-box input{
   width: 94.9rem;
@@ -294,6 +295,9 @@ main .heroSection{
   border-radius: 75px;
   font-size: 20px;
   margin-top: 5px;
+}
+.search-box input::placeholder{
+  color: #e8e8e8;
 }
 
 .search-icon-box{
