@@ -231,6 +231,10 @@ main .heroSection{
   overflow: hidden;
   justify-content: center;
   align-items: center;
+  background-image: url(bg-hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .hero-icon-div{
   width: 100%;
