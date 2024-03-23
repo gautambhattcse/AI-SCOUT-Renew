@@ -618,6 +618,12 @@ main .heroSection{
       width:130px;
       height:130px;
 }
+  .secondsection-1-container,
+.secondsection-3-container {
+  .container-left .cl-h {
+    padding-left: 60px;
+  }
+}
 }
 
   /* For Tablets */
