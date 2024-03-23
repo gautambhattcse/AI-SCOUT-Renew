@@ -483,6 +483,7 @@ main .heroSection{
   width: 100%;
   display: flex;
   flex-direction: column;
+  margin-top:20px;
   overflow-wrap: normal;
 }
 .footer-top {
