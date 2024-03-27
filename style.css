@@ -607,6 +607,7 @@ main .heroSection {
   display: flex;
   flex-direction: column;
   overflow-wrap: normal;
+  margin-top: 50px;
 }
 .footer-top {
   display: flex;
