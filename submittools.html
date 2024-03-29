@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI SCOUT</title>
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/submittools.css">
+    <script
+      src="https://kit.fontawesome.com/4309bb8518.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/index.js"></script>
+    <script src="/js/submittools.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="navbar">
+                <div class="nav-left">
+                    <img class="nav-logo" src="/assets/images/logo.png" alt="nav-logo">
+                </div>
+                <div class="nav-middle">
+                    <ul>
+                        <li><a href="index.html"><i class="fa-solid fa-house fa"  ></i>Home</li>
+                        <li><a href="category.html"><i class="fa-solid fa-list fa"></i>Ai categories</a></li> 
+                        <li><a href="featured.html"><i class="fa-regular fa-star nav-icon fa"></i>Get Featured</a></li>
+                        <li><a href="submittools.html"><i class="fa-solid fa-plus nav-icon fa"></i>Submit Tools</a></li>
+                        <li><a href="blog.html"><i class="fa-solid fa-blog nav-icon fa"></i>Ai Blogs</a></li>
+                    </ul>
+                </div>
+                <div class="nav-right">
+                    <a href="login.html"><button class="getstarted">GET STARTED NOW</button></a>
+                </div>
+            </div>
+            <div class="togglebtn">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+              <div class="dropdown-menu">
+                <ul>
+                    <li><a href="index.html"><i class="fa-solid fa-house fa"></i>Home</li>
+                    <li><a href=""><i class="fa-solid fa-list fa"></i>Ai categories</a></li>
+                    <li><a href=""><i class="fa-regular fa-star nav-icon  fa"></i>Get Featured</a></li>
+                    <li><a href=""><i class="fa-solid fa-plus nav-icon fa"></i>Submit Tools</a></li>
+                    <li><a href=""><i class="fa-solid fa-blog nav-icon  fa"></i>Ai Blogs</a></li>
+                    <li><a href="login.html"><button class="getstarted">GET STARTED NOW</button></a></li>
+                </ul>
+              </div>
+        </nav>
+    </header>
+    <main>
+        <div class="submit-tools">
+            <div class="submit-heading">
+                <h1>Submit Tools</h1>
+                <p>Submit new tool or tools you would like us to have.</p>
+            </div>
+            <div class="submit-content">
+                <div class="submit-link">
+                    <form id="toolForm" class="tool-form" onsubmit="submitForm(event)">
+                        <div class="form-group">
+                            <label for="toolName">Tool Name:</label>
+                            <input type="text" id="toolName" name="toolName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="description">Description:</label>
+                            <textarea id="description" name="description" rows="4" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="category">Category:</label>
+                            <select id="category" name="category" required>
+                                <option value="AI Agents">AI Agent</option>
+                                <option value="Avatars">Avatars</option>
+                                <option value="Audio Editing">Audio Editing</option>
+                                <option value="Copywriting">Copywriting</option>
+                                <option value="Cartoon Generators">Cartoon Generators</option>
+                                <option value="Code Assistant">Code Assistant</option>
+                                <option value="Drawing">Drawing</option>
+                                <option value="Design Generators">Design Generators</option>
+                                <option value="Fitness">Fitness</option>
+                                <option value="Fashion">Fashion</option>
+                                <option value="Finance">Finance</option>
+                                <option value="Gift Ideas">Gift Ideas</option>
+                                <option value="Github">Github</option>
+                                <option value="Image Editing">Image Editing</option>
+                                <option value="Image Generators">Image Generators</option>
+                                <option value="Image To Image">Image To Image</option>
+                                <option value="Low-Code/No-Code">Low-Code/No-Code</option>
+                                <option value="Music">Music</option>
+                                <option value="Portrait Generators">Portrait Generators</option>
+                                <option value="Project Management">Project Management</option>
+                                <option value="Paraphrasing">Paraphrasing</option>
+                                <option value="Personal Assistant">Personal Assistant</option>
+                                <option value="Presentations">Presentations</option>
+                                <option value="Prompt Generators">Prompt Generators</option>
+                                <option value="Research">Research</option>
+                                <option value="SQL">SQL</option>
+                                <option value="Spreadsheets">Spreadsheets</option>
+                                <option value="Storyteller">Storyteller</option>
+                                <option value="Students">Students</option>
+                                <option value="Social Media">Social Media</option>
+                                <option value="Text To Speech">Text To Speech</option>
+                                <option value="Transcriber">Transcriber</option>
+                                <option value="Text To Image">Text To Image</option>
+                                <option value="Text To Video">Text To Video</option>
+                                <option value="Translator">Translator</option>
+                                <option value="Video Editing">Video Editing</option>
+                                <option value="Video Enhancer">Video Enhancer</option>
+                                <option value="Video Generators">Video Generators</option>
+                                <option value="Workflows">Workflows</option>
+                                <option value="Writing Generators">Writing Generators</option>
+                                <option value="Website Builders">Website Builders</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="toolLink">Link to Tool:</label>
+                            <input type="url" id="toolLink" name="toolLink" required>
+                        </div>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-top">
+                <div class="footer-top-left">
+                    <img class="footer-logo" src="/assets/images/logo.png" alt="footer-image">
+                    <p class="footer-para">Disclosure : AI Scout is committed to provide Best Ai tools available in market for the students and the working professionals.</p>
+                </div>
+                <div class="footer-top-middle">
+                    <div class="footer-top-middle-left">
+                        <ul>
+                            <li><a href="index.html">Home</li>
+                            <li><a href="category.html">Ai categories</a></li>
+                            <li><a href="featured.html">Get Featured</a></li>
+                            <li><a href="submittools.html">Submit Tools</a></li>
+                            <li><a href="blog.html">Ai Blogs</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-top-middle-right">
+                        <ul>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="feedbackform.html">Feedback form</a></li>
+                            <li><a href="members.html">Team Members</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-top-right">
+                    <ul>
+                        <li><a href="signup.html">Create an account</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-line"></div>
+            <div class="footer-down">
+                <div class="footer-down-left">
+                    <p class="footer-down-para">@ AI SCOUT | All rights reserved</p>
+                    <h1 class="footer-down-link"><a href="privacypolicy.html">Privacy Policies</a></h1>
+                    <h1 class="footer-down-link"><a href="termsandcondition.html">Terms and Conditions</a></h1>
+                </div>
+                <div class="footer-down-right">
+                    <ul>
+                        <li><i class="fa-brands fa-linkedin fa-2x footer-icons" title="linkedin" style="color: rgb(97, 97, 255);"></i></li>
+                        <li><i class="fa-brands fa-square-x-twitter footer-icons fa-2x" title="twitter" style="color: rgb(55, 55, 55);"></i></li>
+                        <li><i class="fa-brands fa-youtube fa-2x footer-icons" title="youtube" style="color: rgb(255, 93, 93);"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
