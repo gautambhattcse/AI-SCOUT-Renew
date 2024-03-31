@@ -50,26 +50,31 @@
         </nav>
     </header>
     <main>
-        <section class="form-container">
-            <h2>Get Featured Form</h2>
-            <form id="featuredForm" onsubmit="processPayment(event)">
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="toolUrl">Tool URL:</label>
-                    <input type="url" id="toolUrl" name="toolUrl" required>
-                </div>
-                <div class="form-group">
-                    <label for="plan">Choose Plan:</label>
-                    <select id="plan" name="plan" required>
-                        <option value="basic">1 week feature on Homepage ($20/month)</option>
-                        <option value="premium">3 week feature on Homepage ($35/month)</option>
-                    </select>
-                </div>
-                <button type="submit">Proceed to Payment</button>
-            </form>
+        <section class="feature-section">
+            <div class="feature-heading">
+                <h2>Get Featured</h2>
+                <p>Feature Your Tools on our Homepage.</p>
+            </div>
+            <div class="form-container">
+                <form id="featuredForm" onsubmit="processPayment(event)">
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="toolUrl">Tool URL:</label>
+                        <input type="url" id="toolUrl" name="toolUrl" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="plan">Choose Plan:</label>
+                        <select id="plan" name="plan" required>
+                            <option value="basic">1 week feature on Homepage ($20/month)</option>
+                            <option value="premium">3 week feature on Homepage ($35/month)</option>
+                        </select>
+                    </div>
+                    <button type="submit">Proceed to Payment</button>
+                </form>
+            </div>
         </section>
 
     </main>
