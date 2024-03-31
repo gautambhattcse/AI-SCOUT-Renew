@@ -1,19 +1,32 @@
-
 main {
-    padding: 20px;
-    margin-top: 120px;
+  padding: 20px;
 }
-
+.feature-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.feature-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 88px;
+  color: #e8e8e8;
+}
+.feature-heading h2 {
+  color: #e8e8e8;
+}
+.feature-heading p {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
 .form-container {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 5px solid #908dff;
-    border-radius: 30px;
-}
-.form-container h2{
-    color: #e8e8e8;
-    margin-bottom: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 5px solid #908dff;
+  border-radius: 30px;
 }
 .form-group {
     margin-bottom: 20px;
