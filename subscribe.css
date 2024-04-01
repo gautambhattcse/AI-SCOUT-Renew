@@ -129,3 +129,9 @@ main {
     height: 100%;
     padding: 15px;
 }
+
+@media only screen and (min-width:1025px) {
+    .news-top-description p{
+        font-size:18px;
+    }
+}
