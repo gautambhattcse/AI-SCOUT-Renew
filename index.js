@@ -1,3 +1,9 @@
+
+window.addEventListener("load", function() {
+    var loaderOverlay = document.getElementById("loader-overlay");
+    loaderOverlay.style.display = "none";
+});
+
 document.addEventListener('DOMContentLoaded', function() {
     const toggleBtn = document.querySelector('.togglebtn');
     const toggleBtnIcon = document.querySelector('.togglebtn i');
