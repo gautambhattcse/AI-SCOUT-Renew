@@ -341,7 +341,7 @@ main .heroSection {
   width: 100%;
   height: 50vh;
   background-color: #000000;
-  background-image: url(/assets/images/container-background.webp);
+  background-image: url(container-background.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -360,7 +360,7 @@ main .heroSection {
   height: 50vh;
   background-color: rgb(0, 0, 0);
   margin: 20px 0;
-  background-image: url(/assets/images/container-background.webp);
+  background-image: url(container-background.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -383,7 +383,7 @@ main .heroSection {
   width: 100%;
   height: 50vh;
   background-color: rgb(0, 0, 0);
-  background-image: url(/assets/images/container-background.webp);
+  background-image: url(container-background.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -405,7 +405,7 @@ main .heroSection {
   height: 50vh;
   background-color: rgb(0, 0, 0);
   margin: 20px 0;
-  background-image: url(/assets/images/container-background.webp);
+  background-image: url(container-background.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -428,7 +428,7 @@ main .heroSection {
   width: 100%;
   height: 50vh;
   background-color: rgb(0, 0, 0);
-  background-image: url(/assets/images/container-background.webp);
+  background-image: url(container-background.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -612,8 +612,12 @@ main .heroSection {
     border-radius: 10px;
   }
 
+  .image img{
+    width: 100%;
+    height: 100%;
+  }
   .title {
-    color: #111827;
+    color: #443fd3;
     font-size: 1.125rem;
     line-height: 1.75rem;
     font-weight: 600;
@@ -622,6 +626,7 @@ main .heroSection {
   .desc {
     margin-top: 0.5rem;
     color: #6b7280;
+    height: 140px;
     font-size: 0.875rem;
     line-height: 1.25rem;
   }
