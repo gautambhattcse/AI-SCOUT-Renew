@@ -18,3 +18,25 @@ document.addEventListener('DOMContentLoaded', function() {
             : 'fa-solid fa-bars';
     };
 });
+
+// Wait for the DOM content to be fully loaded
+document.addEventListener("DOMContentLoaded", function() {
+    var goToTopBtn = document.getElementById("gototop");
+
+    // Show the button when scrolling down
+    window.onscroll = function() { scrollFunction() };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            goToTopBtn.style.display = "block";
+        } else {
+            goToTopBtn.style.display = "none";
+        }
+    }
+
+    // Scroll to the top when the button is clicked
+    goToTopBtn.addEventListener("click", function() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    });
+});
