@@ -928,11 +928,8 @@ main .heroSection {
   cursor: pointer;
   position: fixed;
   right: 40px;
-  bottom: 40px;
+  bottom: 105px;
   z-index: 9999;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .go-to-top-back{
   width: 100%;
