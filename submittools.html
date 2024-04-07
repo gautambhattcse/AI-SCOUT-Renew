@@ -57,7 +57,7 @@
             </div>
             <div class="submit-content">
                 <div class="submit-link">
-                    <form id="toolForm" class="tool-form" onsubmit="submitForm(event)">
+                    <form id="toolForm" class="tool-form" onsubmit="submitForm(event)" name="submit-to-google-sheet">
                         <div class="form-group">
                             <label for="toolName">Tool Name:</label>
                             <input type="text" id="toolName" name="toolName" required>
@@ -176,5 +176,23 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz1axxrwsRot9yyyofTunvXs6i5vvupfGYk_ajjERFCBW6S5kvcc8SkPrtuWCJ2wkeGIA/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch(error => console.error('Error!', error.message))
+        })
+      </script>
 </body>
 </html>
