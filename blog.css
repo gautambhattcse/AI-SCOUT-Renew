@@ -1,0 +1,220 @@
+main{
+    height: 370vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+}
+.blog-herosection{
+    width: 100%;
+    height: 580px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+.blog-herocontainer{
+    width: 90%;
+    height: 100%;
+    background-color:#022a5d;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
+}
+.blog-hero-left{
+    width: 68%;
+    height: 80%;
+    margin-left: 20px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.blog-hero-left h1{
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #e8e8e8;
+}
+.blog-hero-left p{
+    font-size: 20px;
+    color: #e8e8e8;
+}
+.blog-hero-right{
+    width: 32%;
+    height: 80%;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+.blog-hero-right img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px; 
+}
+.blog-line{
+    width:90%;
+    height: 1px;
+    background-color: grey;
+    margin: 20px;
+}
+
+.blog-secondsection{
+    width: 100%;
+    height: 2000px;
+    /* background-color: rgb(0, 0, 0); */
+    display: flex;
+    justify-content: center;;
+    /* align-items: center; */
+}
+.second-container{
+    width: 90%;
+    height: 100%;
+    /* background-color: #e8e8e8; */
+    display: flex;
+    align-items: center;
+    overflow-y: scroll;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.second-container::-webkit-scrollbar{
+    display: none;
+  }
+.article-container{
+    width: 90%;
+    height: 320px;
+    background-color:#022046;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid #e8e8e8;
+}
+.article-left{
+    width: 30%;
+    height: 80%;
+    background-color: cadetblue;
+    margin: 15px;
+    border-radius: 30px;
+}
+.article-left a{
+    text-decoration: none;
+}
+.article-left img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.article-mid{
+    width: 2px;
+    height: 90%;
+    background-color: #e8e8e8;
+}
+.article-right{
+    width: 60%;
+    height: 90%;
+    padding: 12px;
+    /* background-color: burlywood; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.article-right h1,p{
+    color: #e8e8e8;
+    margin-bottom: 15px;
+}
+.article-right h1{
+    height: 60px;
+}
+.article-right p{
+    height: 80px;
+}
+.article-updates{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #e8e8e8;
+}
+.article-button{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+.article-button a{
+    text-decoration: none;
+    color: #e8e8e8;
+}
+.article-right{
+    button {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+          "Liberation Mono", "Courier New", monospace;
+        font-size: 17px;
+        width: 13em;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1em 2.7em;
+        font-weight: 500;
+        background: #1f2937;
+        color: white;
+        border: none;
+        position: relative;
+        overflow: hidden;
+        border-radius: 0.6em;
+        cursor: pointer;
+      }
+      
+      .gradient {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        border-radius: 0.6em;
+        margin-top: -0.25em;
+        background-image: linear-gradient(
+          rgba(0, 0, 0, 0),
+          rgba(0, 0, 0, 0),
+          rgba(0, 0, 0, 0.3)
+        );
+      }
+      
+      .label {
+        position: relative;
+        top: -1px;
+      }
+      
+      .transition {
+        transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+        transition-duration: 500ms;
+        background-color: rgba(16, 185, 129, 0.6);
+        border-radius: 9999px;
+        width: 0;
+        height: 0;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+      
+      button:hover .transition {
+        width: 14em;
+        height: 14em;
+      }
+      
+      button:active {
+        transform: scale(0.97);
+    }
+      
+}
