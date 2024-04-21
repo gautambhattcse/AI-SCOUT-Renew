@@ -31,6 +31,13 @@ main {
 .form-group {
     margin-bottom: 20px;
 }
+.form-group input{
+  border: 3px solid #212121 ;
+  outline: none;
+}
+.form-group input:focus{
+  border: 3px solid rgb(91, 66, 255) ;
+}
 
 label {
     font-weight: bold;
