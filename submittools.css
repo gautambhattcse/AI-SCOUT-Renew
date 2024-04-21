@@ -45,6 +45,17 @@ form {
 .form-group #description{
     width: 400px;
 }
+.form-group textarea{
+  padding: 10px;
+  font-weight: 400;
+}
+.form-group input,textarea{
+  border: 3px solid #212121 ;
+  outline: none;
+}
+.form-group input:focus,textarea:focus{
+  border: 3px solid rgb(91, 66, 255) ;
+}
 label,
 input,
 select,
