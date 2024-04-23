@@ -159,7 +159,7 @@
           e.preventDefault()
           fetch(scriptURL, { mode:"no-cors", method: 'POST', body: new FormData(form)})
           .then((response) => {
-            msg.innerHTML = "Message sent successfully";
+            alert("Message sent. We will connect with you soon.");
             setTimeout(function () {
               msg.innerHTML = "";
             }, 5000);
