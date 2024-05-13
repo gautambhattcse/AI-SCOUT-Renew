@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI SCOUT</title>
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+    <link rel="stylesheet" href="/css/style.css">
+    <script
+      src="https://kit.fontawesome.com/4309bb8518.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/index.js"></script>
+</head>
+<body>
+    <div id="loader-overlay">
+        <div class="loader"></div>
+    </div>
+    <header>
+        <nav class="nav">
+            <div class="navbar">
+                <div class="nav-left">
+                    <img class="nav-logo" src="/assets/images/logo.png" alt="nav-logo">
+                </div>
+                <div class="nav-middle">
+                    <ul>
+                        <li><a href="index.html"><i class="fa-solid fa-house fa"  ></i>Home</li>
+                        <li><a href="category.html"><i class="fa-solid fa-list fa"></i>Ai categories</a></li> 
+                        <li><a href="featured.html"><i class="fa-regular fa-star nav-icon fa"></i>Get Featured</a></li>
+                        <li><a href="submittools.html"><i class="fa-solid fa-plus nav-icon fa"></i>Submit Tools</a></li>
+                        <li><a href="blog.html"><i class="fa-solid fa-blog nav-icon fa"></i>Ai Blogs</a></li>
+                    </ul>
+                </div>
+                <div class="nav-right">
+                    <a href="subscribe.html"><button class="getstarted">SUBSCRIBE NOW</button></a>
+                </div>
+            </div>
+            <div class="togglebtn">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+              <div class="dropdown-menu">
+                <ul>
+                    <li><a href="index.html"><i class="fa-solid fa-house fa"></i>Home</li>
+                    <li><a href="category.html"><i class="fa-solid fa-list fa"></i>Ai categories</a></li>
+                    <li><a href="featured.html"><i class="fa-regular fa-star nav-icon  fa"></i>Get Featured</a></li>
+                    <li><a href="submittools.html"><i class="fa-solid fa-plus nav-icon fa"></i>Submit Tools</a></li>
+                    <li><a href="blog.html"><i class="fa-solid fa-blog nav-icon  fa"></i>Ai Blogs</a></li>
+                    <li><a href="subscribe.html"><button class="getstarted">SUBSCRIBE NOW</button></a></li>
+                </ul>
+              </div>
+        </nav>
+    </header>
+    <main>
+        <section class="thirdsection" style="margin-top: 110px;">
+            <div class="headings">
+                <div class="second-heading heading " onclick="opentab('featured-tools')">
+                    <h1 style="font-size: 26px;">Popular Tools</h1>
+                    <div class="heading-line"></div>
+                </div>
+            </div>
+            <div class="featured-tools tool-content active-tab" id="popular-tools">
+                <div class="featured-cards">
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Popular/imgp1.png" alt="imgp1">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                DALL.E 2
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                DALL·E 2 is an AI system that can create realistic images and art from a description in natural language.
+                            </p>
+
+                            <a class="action" href="https://openai.com/dall-e-2" target="_blank" rel="noopener">
+                            Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Popular/imgp2.png" alt="imgp2">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                JADBio — AutoML
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                JADBio is a state-of-the-art, automated ML Platform, designed for Life Scientists. It enables you to effortlessly make new discoveries and extract knowledge from publicly available or own-study data, without the need for coding or ML expertise.
+                            </p>
+
+                            <a class="action" href="https://jadbio.com/" target="_blank" rel="noopener">
+                            Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Popular/imgp3.png" alt="imgp3">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Copy.ai - Copywriter
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                The role of a copywriter is to write blog posts, email campaigns, product descriptions, and similar content.
+                            </p>
+
+                            <a class="action" href="https://www.copy.ai/?via=start&gad_source=1" target="_blank" rel="noopener">
+                            Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Popular/imgp4.png" alt="imgp4">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Lumen5 — Video Creator
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Lumen5 gives you the power to create expert-looking videos without having to break a sweat.
+                            </p>
+
+                            <a class="action" href="https://lumen5.com/" target="_blank" rel="noopener">
+                            Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Popular/imgp5.png" alt="imgp5">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Canva's AI Art Generator
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Canva offers a range of AI image generator apps that let you start with a text prompt and get matching AI-generated images. 
+                            </p>
+
+                            <a class="action" href="https://www.canva.com/ai-image-generator/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Popular/imgp6.png" alt="imgp6">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Lalal.ai -Stem Seperator
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                LALAL.AI is a stem separation tool available as a web service and a desktop application. It uses Phoenix, the in-house developed AI, to split files into 10 stems of musical instruments.
+                            </p>
+
+                            <a class="action" href="https://www.lalal.ai/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Popular/imgp7.png" alt="imgp7">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Chat GPT
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                ChatGPT is primarily used for natural language understanding and generation, making it valuable for tasks like content creation, chatbot development, language translation, and more
+                            </p>
+
+                            <a class="action" href="https://chat.openai.com/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Popular/imgp8.png" alt="imgp8">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Blackbox.ai
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Black box AI is any artificial intelligence system whose inputs and operations aren't visible to the user or another interested party. A black box, in a general sense, is an impenetrable system. 
+                            </p>
+
+                            <a class="action" href="https://www.blackbox.ai/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Popular/imgp9.png" alt="imgp9">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Quillbot
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                QuillBot is a paraphrasing and summarizing tool that helps millions of students and professionals cut their writing time by more than half using state-of-the-art AI to rewrite any sentence, paragraph, or article.
+                            </p>
+
+                            <a class="action" href="https://quillbot.com/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Popular/imgp10.png" alt="imgp10">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Notion
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Notion is a single space where you can think, write, and plan. Capture thoughts, manage projects, or even run an entire company — and do it exactly the way you want. 
+                            </p>
+
+                            <a class="action" href="https://www.notion.so/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Popular/imgp11.png" alt="imgp11">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Slidesgo
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Slidesgo offers an extensive catalog of free Google Slides themes and PowerPoint templates for creative presentations.
+                            </p>
+
+                            <a class="action" href="https://slidesgo.com/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Popular/imgp12.png" alt="imgp12">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Copilot
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Copilot in Teams Phone uses AI to empower you to work more flexibly and intelligently, automating important administrative tasks of a call, such as capturing key points, task owners, and next steps, so you can stay focused on the discussion.
+                            </p>
+
+                            <a class="action" href="https://copilot.microsoft.com/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-top">
+                <div class="footer-top-left">
+                    <img class="footer-logo" src="/assets/images/logo.png" alt="footer-image">
+                    <p class="footer-para">Disclosure : AI Scout is committed to provide Best Ai tools available in market for the students and the working professionals.</p>
+                </div>
+                <div class="footer-top-middle">
+                    <div class="footer-top-middle-left">
+                        <ul>
+                            <li><a href="index.html">Home</li>
+                            <li><a href="category.html">Ai categories</a></li>
+                            <li><a href="featured.html">Get Featured</a></li>
+                            <li><a href="submittools.html">Submit Tools</a></li>
+                            <li><a href="blog.html">Ai Blogs</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-top-middle-right">
+                        <ul>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="feedbackform.html">Feedback form</a></li>
+                            <li><a href="members.html">Team Members</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-top-right">
+                    <ul>
+                        <li><a href="subscribe.html">
+                            <button class="getstarted">SUBSCRIBE NOW</button>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-line"></div>
+            <div class="footer-down">
+                <div class="footer-down-left">
+                    <p class="footer-down-para">@ AI SCOUT | All rights reserved</p>
+                    <h1 class="footer-down-link"><a href="privacypolicy.html">Privacy Policies</a></h1>
+                    <h1 class="footer-down-link"><a href="termsandcondition.html">Terms and Conditions</a></h1>
+                </div>
+                <div class="footer-down-right">
+                    <ul>
+                        <li><i class="fa-brands fa-linkedin fa-2x footer-icons" title="linkedin" style="color: rgb(97, 97, 255);"></i></li>
+                        <li><i class="fa-brands fa-square-x-twitter footer-icons fa-2x" title="twitter" style="color: rgb(55, 55, 55);"></i></li>
+                        <li><i class="fa-brands fa-youtube fa-2x footer-icons" title="youtube" style="color: rgb(255, 93, 93);"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="go-to-top" id="gototop">
+        <div class="go-to-top-back">
+            <i class="fa-regular fa-circle-up fa-2x"></i>
+        </div>
+    </div>
+    
+</body>
+</html>
