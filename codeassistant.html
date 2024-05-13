@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI SCOUT</title>
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+    <link rel="stylesheet" href="/css/style.css">
+    <script
+      src="https://kit.fontawesome.com/4309bb8518.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/index.js"></script>
+    <style>
+        .headings .second-heading:hover {
+            .heading-line {
+              width: 267px;
+            }
+          }
+    </style>
+</head>
+<body>
+    <div id="loader-overlay">
+        <div class="loader"></div>
+    </div>
+    <header>
+        <nav class="nav">
+            <div class="navbar">
+                <div class="nav-left">
+                    <img class="nav-logo" src="/assets/images/logo.png" alt="nav-logo">
+                </div>
+                <div class="nav-middle">
+                    <ul>
+                        <li><a href="index.html"><i class="fa-solid fa-house fa"  ></i>Home</li>
+                        <li><a href="category.html"><i class="fa-solid fa-list fa"></i>Ai categories</a></li> 
+                        <li><a href="featured.html"><i class="fa-regular fa-star nav-icon fa"></i>Get Featured</a></li>
+                        <li><a href="submittools.html"><i class="fa-solid fa-plus nav-icon fa"></i>Submit Tools</a></li>
+                        <li><a href="blog.html"><i class="fa-solid fa-blog nav-icon fa"></i>Ai Blogs</a></li>
+                    </ul>
+                </div>
+                <div class="nav-right">
+                    <a href="subscribe.html"><button class="getstarted">SUBSCRIBE NOW</button></a>
+                </div>
+            </div>
+            <div class="togglebtn">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+              <div class="dropdown-menu">
+                <ul>
+                    <li><a href="index.html"><i class="fa-solid fa-house fa"></i>Home</li>
+                    <li><a href="category.html"><i class="fa-solid fa-list fa"></i>Ai categories</a></li>
+                    <li><a href="featured.html"><i class="fa-regular fa-star nav-icon  fa"></i>Get Featured</a></li>
+                    <li><a href="submittools.html"><i class="fa-solid fa-plus nav-icon fa"></i>Submit Tools</a></li>
+                    <li><a href="blog.html"><i class="fa-solid fa-blog nav-icon  fa"></i>Ai Blogs</a></li>
+                    <li><a href="subscribe.html"><button class="getstarted">SUBSCRIBE NOW</button></a></li>
+                </ul>
+              </div>
+        </nav>
+    </header>
+    <main>
+        <section class="thirdsection" style="margin-top: 110px;">
+            <div class="headings">
+                <div class="second-heading heading " onclick="opentab('featured-tools')">
+                    <h1 style="font-size: 26px;">Code Assistant</h1>
+                    <div class="heading-line"></div>
+                </div>
+            </div>
+            <div class="featured-tools tool-content active-tab" id="popular-tools">
+                <div class="featured-cards">
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/CodeAssistant/imgca1.png" alt="imgca1">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Zzz Code AI
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Zzz Code AI: Utilizes AI to automate coding tasks, providing suggestions, debugging assistance, and optimizing code for improved efficiency and productivity.
+                            </p>
+                            <a class="action" href="https://zzzcode.ai/" target="_blank" rel="noopener">
+                            Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/CodeAssistant/imgca2.png" alt="imgca2">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Code Squire
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Code Squire: AI-powered coding assistant offering suggestions, debugging support, and code optimization to enhance productivity and streamline software development processes efficiently.
+                            </p>
+
+                            <a class="action" href="https://codesquire.ai/" target="_blank" rel="noopener">
+                            Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/CodeAssistant/imgca3.png" alt="imgca3">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Programming Helper
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Programming Helper: AI taool providing guidance, debugging assistance, and code optimization to streamline programming tasks, enhancing efficiency and productivity in software development.
+                            </p>
+
+                            <a class="action" href="https://www.programming-helper.com/" target="_blank" rel="noopener">
+                            Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/CodeAssistant/imgca4.png" alt="imgca4">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                AI Code Mentor
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                AI Code Mentor: Utilizes AI to provide personalized guidance, code review, and learning resources to assist developers in improving their coding skills effectively.
+                            </p>
+
+                            <a class="action" href="https://code-mentor.ai/" target="_blank" rel="noopener">
+                            Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/CodeAssistant/imgca5.png" alt="imgca5">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Code Converter
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Code Converter: AI tool converting code between programming languages, facilitating cross-platform development and improving interoperability in software projects efficiently.
+                            </p>
+
+                            <a class="action" href="https://codeconverter.com/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/CodeAssistant/imgca6.png" alt="imgca6">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Userway
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                UserWay: AI-driven accessibility tool ensuring websites comply with ADA & WCAG guidelines, enhancing inclusivity with features like screen reader optimization.
+                            </p>
+
+                            <a class="action" href="https://userway.org/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/CodeAssistant/imgca7.png" alt="imgca7">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Amazon Code Whisperer
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Amazon Code Whisperer: AI tool optimizing code for Amazon Web Services, enhancing performance, scalability, and efficiency in cloud-based applications and services.
+                            </p>
+
+                            <a class="action" href="https://aws.amazon.com/free/?sc_icampaign=acq_aws_takeover-1st-visit-free-tier&sc_ichannel=ha&sc_icontent=awssm-evergreen-1st-visit&sc_iplace=hero&trk=ha_awssm-evergreen-1st-visit&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/CodeAssistant/imgca8.png" alt="imgca8">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Safurai
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Safurai is an AI-powered programming assistant that integrates seamlessly with the Visual Studio Code IDE. It offers a range of features designed to support developers throughout the software development lifecycle.
+                            </p>
+
+                            <a class="action" href="https://www.safurai.com/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/CodeAssistant/imgca9.png" alt="imgca9">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Code Mate
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Code Mate: AI tool providing real-time code suggestions, auto-completion, and syntax error detection, enhancing coding efficiency and productivity for developers.
+                            </p>
+
+                            <a class="action" href="https://codemate.ai/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/CodeAssistant/imgca10.png" alt="imgca10">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                #
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                #
+                            </p>
+
+                            <a class="action" href="#" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/CodeAssistant/imgca11.png" alt="imgca11">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                #
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                #
+                            </p>
+
+                            <a class="action" href="#" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/CodeAssistant/imgca12.png" alt="imgca12">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                #
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                #
+                            </p>
+
+                            <a class="action" href="#" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-top">
+                <div class="footer-top-left">
+                    <img class="footer-logo" src="/assets/images/logo.png" alt="footer-image">
+                    <p class="footer-para">Disclosure : AI Scout is committed to provide Best Ai tools available in market for the students and the working professionals.</p>
+                </div>
+                <div class="footer-top-middle">
+                    <div class="footer-top-middle-left">
+                        <ul>
+                            <li><a href="index.html">Home</li>
+                            <li><a href="category.html">Ai categories</a></li>
+                            <li><a href="featured.html">Get Featured</a></li>
+                            <li><a href="submittools.html">Submit Tools</a></li>
+                            <li><a href="blog.html">Ai Blogs</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-top-middle-right">
+                        <ul>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="feedbackform.html">Feedback form</a></li>
+                            <li><a href="members.html">Team Members</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-top-right">
+                    <ul>
+                        <li><a href="subscribe.html">
+                            <button class="getstarted">SUBSCRIBE NOW</button>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-line"></div>
+            <div class="footer-down">
+                <div class="footer-down-left">
+                    <p class="footer-down-para">@ AI SCOUT | All rights reserved</p>
+                    <h1 class="footer-down-link"><a href="privacypolicy.html">Privacy Policies</a></h1>
+                    <h1 class="footer-down-link"><a href="termsandcondition.html">Terms and Conditions</a></h1>
+                </div>
+                <div class="footer-down-right">
+                    <ul>
+                        <li><i class="fa-brands fa-linkedin fa-2x footer-icons" title="linkedin" style="color: rgb(97, 97, 255);"></i></li>
+                        <li><i class="fa-brands fa-square-x-twitter footer-icons fa-2x" title="twitter" style="color: rgb(55, 55, 55);"></i></li>
+                        <li><i class="fa-brands fa-youtube fa-2x footer-icons" title="youtube" style="color: rgb(255, 93, 93);"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="go-to-top" id="gototop">
+        <div class="go-to-top-back">
+            <i class="fa-regular fa-circle-up fa-2x"></i>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI SCOUT</title>
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+    <link rel="stylesheet" href="/css/style.css">
+    <script
+      src="https://kit.fontawesome.com/4309bb8518.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/index.js"></script>
+    <style>
+        .headings .second-heading:hover {
+            .heading-line {
+              width: 106px;
+            }
+          }
+    </style>
+</head>
+<body>
+    <div id="loader-overlay">
+        <div class="loader"></div>
+    </div>
+    <header>
+        <nav class="nav">
+            <div class="navbar">
+                <div class="nav-left">
+                    <img class="nav-logo" src="/assets/images/logo.png" alt="nav-logo">
+                </div>
+                <div class="nav-middle">
+                    <ul>
+                        <li><a href="index.html"><i class="fa-solid fa-house fa"  ></i>Home</li>
+                        <li><a href="category.html"><i class="fa-solid fa-list fa"></i>Ai categories</a></li> 
+                        <li><a href="featured.html"><i class="fa-regular fa-star nav-icon fa"></i>Get Featured</a></li>
+                        <li><a href="submittools.html"><i class="fa-solid fa-plus nav-icon fa"></i>Submit Tools</a></li>
+                        <li><a href="blog.html"><i class="fa-solid fa-blog nav-icon fa"></i>Ai Blogs</a></li>
+                    </ul>
+                </div>
+                <div class="nav-right">
+                    <a href="subscribe.html"><button class="getstarted">SUBSCRIBE NOW</button></a>
+                </div>
+            </div>
+            <div class="togglebtn">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+              <div class="dropdown-menu">
+                <ul>
+                    <li><a href="index.html"><i class="fa-solid fa-house fa"></i>Home</li>
+                    <li><a href="category.html"><i class="fa-solid fa-list fa"></i>Ai categories</a></li>
+                    <li><a href="featured.html"><i class="fa-regular fa-star nav-icon  fa"></i>Get Featured</a></li>
+                    <li><a href="submittools.html"><i class="fa-solid fa-plus nav-icon fa"></i>Submit Tools</a></li>
+                    <li><a href="blog.html"><i class="fa-solid fa-blog nav-icon  fa"></i>Ai Blogs</a></li>
+                    <li><a href="subscribe.html"><button class="getstarted">SUBSCRIBE NOW</button></a></li>
+                </ul>
+              </div>
+        </nav>
+    </header>
+    <main>
+        <section class="thirdsection" style="margin-top: 110px;">
+            <div class="headings">
+                <div class="second-heading heading " onclick="opentab('featured-tools')">
+                    <h1 style="font-size: 26px;">Fashion</h1>
+                    <div class="heading-line"></div>
+                </div>
+            </div>
+            <div class="featured-tools tool-content active-tab" id="popular-tools">
+                <div class="featured-cards">
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Fashion/fashion1.png" alt="fashion1">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Wardrobe-ai
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Wardrobe-AI: AI-powered platform suggesting outfit combinations, utilizing image recognition and personal style analysis for fashion recommendations.
+                            </p>
+                            <a class="action" href="https://wardrobe-ai.com/" target="_blank" rel="noopener">
+                            Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Fashion/fashion2.png" alt="fashion2">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Chatbotkit
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                ChatbotKit: Framework for building chatbots, offering tools for natural language processing, dialogue management, and integration with various messaging platforms.
+                            </p>
+
+                            <a class="action" href="https://apps.chatbotkit.com/fashionai?via=aitoolhunt&utm_source=aitoolhunt&ref=aitoolhunt&fpr=aitoolhunt" target="_blank" rel="noopener">
+                            Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Fashion/fashion3.png" alt="fashion3">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Fashionadvisorai
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                FashionAdvisorAI: AI platform offering personalized fashion recommendations based on user preferences, style analysis, and current trends, enhancing shopping experiences.
+                            </p>
+
+                            <a class="action" href="https://www.fashionadvisorai.com/" target="_blank" rel="noopener">
+                            Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Fashion/fashion4.png" alt="fashion4">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Fashionai
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                FashionAI: AI-driven system employing computer vision and deep learning to analyze fashion trends, styles, and preferences for personalized recommendations and styling advice.
+                            </p>
+
+                            <a class="action" href="https://www.fashionai.me/" target="_blank" rel="noopener">
+                            Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Fashion/fashion5.png" alt="fashion5">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Snapdress.Image2image.art
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                SnapDress.Image2Image.Art: AI tool generating artistic renditions from images, employing image-to-image translation techniques for creative transformations and stylizations.
+                            </p>
+
+                            <a class="action" href="https://snapdress.image2image.art/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Fashion/fashion6.png" alt="fashion6">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Outfitsai
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                OutfitsAI: AI tool analyzing clothing items and suggesting complete outfit combinations based on style preferences and occasion requirements.
+                            </p>
+
+                            <a class="action" href="https://www.outfitsai.com/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Fashion/fashion7.png" alt="fashion7">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                VModel.ai
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                VModel.AI: AI platform employing computer vision and deep learning for virtual modeling, enabling virtual try-ons and fashion simulations for online shopping experiences.
+                            </p>
+
+                            <a class="action" href="https://vmodel.ai/en" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Fashion/fashion8.png" alt="fashion8">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Designovel
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Designovel: AI platform offering design recommendations and novel ideas based on user input, leveraging machine learning and creativity algorithms for innovative solutions.
+                            </p>
+
+                            <a class="action" href="https://designovel.com/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Fashion/fashion9.png" alt="fashion9">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Pixite.ai
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Pixite.AI: AI-powered platform for image editing and creative design, providing advanced tools and filters for enhancing and manipulating digital images.
+                            </p>
+
+                            <a class="action" href="https://pixite.ai/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Fashion/fashion10.png" alt="fashion10">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Botika.io
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Botika.IO: AI platform enabling the development and deployment of chatbots for various applications, offering natural language processing capabilities and integration with messaging platforms.
+                            </p>
+
+                            <a class="action" href="https://botika.io/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Fashion/fashion11.png" alt="fashion11">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Depict.AI
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Depict.AI: AI platform specializing in generating realistic depictions of scenes or objects from textual descriptions, utilizing advanced natural language understanding and image synthesis techniques.
+                            </p>
+
+                            <a class="action" href="https://depict.ai/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Fashion/fashion12.png" alt="fashion12">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                TheNewBlack.ai
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                TheNewBlack.AI: AI-driven platform providing fashion trend analysis, style recommendations, and predictive insights for the fashion industry.
+                            </p>
+
+                            <a class="action" href="https://thenewblack.ai/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-top">
+                <div class="footer-top-left">
+                    <img class="footer-logo" src="/assets/images/logo.png" alt="footer-image">
+                    <p class="footer-para">Disclosure : AI Scout is committed to provide Best Ai tools available in market for the students and the working professionals.</p>
+                </div>
+                <div class="footer-top-middle">
+                    <div class="footer-top-middle-left">
+                        <ul>
+                            <li><a href="index.html">Home</li>
+                            <li><a href="category.html">Ai categories</a></li>
+                            <li><a href="featured.html">Get Featured</a></li>
+                            <li><a href="submittools.html">Submit Tools</a></li>
+                            <li><a href="blog.html">Ai Blogs</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-top-middle-right">
+                        <ul>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="feedbackform.html">Feedback form</a></li>
+                            <li><a href="members.html">Team Members</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-top-right">
+                    <ul>
+                        <li><a href="subscribe.html">
+                            <button class="getstarted">SUBSCRIBE NOW</button>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-line"></div>
+            <div class="footer-down">
+                <div class="footer-down-left">
+                    <p class="footer-down-para">@ AI SCOUT | All rights reserved</p>
+                    <h1 class="footer-down-link"><a href="privacypolicy.html">Privacy Policies</a></h1>
+                    <h1 class="footer-down-link"><a href="termsandcondition.html">Terms and Conditions</a></h1>
+                </div>
+                <div class="footer-down-right">
+                    <ul>
+                        <li><i class="fa-brands fa-linkedin fa-2x footer-icons" title="linkedin" style="color: rgb(97, 97, 255);"></i></li>
+                        <li><i class="fa-brands fa-square-x-twitter footer-icons fa-2x" title="twitter" style="color: rgb(55, 55, 55);"></i></li>
+                        <li><i class="fa-brands fa-youtube fa-2x footer-icons" title="youtube" style="color: rgb(255, 93, 93);"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="go-to-top" id="gototop">
+        <div class="go-to-top-back">
+            <i class="fa-regular fa-circle-up fa-2x"></i>
+        </div>
+    </div>
+    
+</body>
+</html>

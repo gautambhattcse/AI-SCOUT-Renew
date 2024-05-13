@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI SCOUT</title>
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+    <link rel="stylesheet" href="/css/style.css">
+    <script
+      src="https://kit.fontawesome.com/4309bb8518.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/index.js"></script>
+    <style>
+        .headings .second-heading:hover {
+            .heading-line {
+              width: 248px;
+            }
+          }
+    </style>
+</head>
+<body>
+    <div id="loader-overlay">
+        <div class="loader"></div>
+    </div>
+    <header>
+        <nav class="nav">
+            <div class="navbar">
+                <div class="nav-left">
+                    <img class="nav-logo" src="/assets/images/logo.png" alt="nav-logo">
+                </div>
+                <div class="nav-middle">
+                    <ul>
+                        <li><a href="index.html"><i class="fa-solid fa-house fa"  ></i>Home</li>
+                        <li><a href="category.html"><i class="fa-solid fa-list fa"></i>Ai categories</a></li> 
+                        <li><a href="featured.html"><i class="fa-regular fa-star nav-icon fa"></i>Get Featured</a></li>
+                        <li><a href="submittools.html"><i class="fa-solid fa-plus nav-icon fa"></i>Submit Tools</a></li>
+                        <li><a href="blog.html"><i class="fa-solid fa-blog nav-icon fa"></i>Ai Blogs</a></li>
+                    </ul>
+                </div>
+                <div class="nav-right">
+                    <a href="subscribe.html"><button class="getstarted">SUBSCRIBE NOW</button></a>
+                </div>
+            </div>
+            <div class="togglebtn">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+              <div class="dropdown-menu">
+                <ul>
+                    <li><a href="index.html"><i class="fa-solid fa-house fa"></i>Home</li>
+                    <li><a href="category.html"><i class="fa-solid fa-list fa"></i>Ai categories</a></li>
+                    <li><a href="featured.html"><i class="fa-regular fa-star nav-icon  fa"></i>Get Featured</a></li>
+                    <li><a href="submittools.html"><i class="fa-solid fa-plus nav-icon fa"></i>Submit Tools</a></li>
+                    <li><a href="blog.html"><i class="fa-solid fa-blog nav-icon  fa"></i>Ai Blogs</a></li>
+                    <li><a href="subscribe.html"><button class="getstarted">SUBSCRIBE NOW</button></a></li>
+                </ul>
+              </div>
+        </nav>
+    </header>
+    <main>
+        <section class="thirdsection" style="margin-top: 110px;">
+            <div class="headings">
+                <div class="second-heading heading " onclick="opentab('featured-tools')">
+                    <h1 style="font-size: 26px;">Design Generators</h1>
+                    <div class="heading-line"></div>
+                </div>
+            </div>
+            <div class="featured-tools tool-content active-tab" id="popular-tools">
+                <div class="featured-cards">
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/DesignGenrators/imgdg1.png" alt="imgdg1">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Wireframe Designer
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Wireframe Designer: AI tool facilitating rapid creation of website or app wireframes, offering intuitive design suggestions and layout optimization for user-friendly interfaces.
+                            </p>
+                            <a class="action" href="https://www.figma.com/community/plugin/1228969298040149016/wireframe-designer" target="_blank" rel="noopener">
+                            Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/DesignGenrators/imgdg2.png" alt="imgdg2">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Idea Generator
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Idea Generator: AI tool sparking creativity by generating innovative concepts, brainstorming prompts, and problem-solving solutions across various domains efficiently.
+                            </p>
+
+                            <a class="action" href="https://www.ideagenerator.ai/" target="_blank" rel="noopener">
+                            Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/DesignGenrators/imgdg3.png" alt="imgdg3">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                CollovGPT
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                CollovGPT: Utilizes AI to generate high-quality product images from textual descriptions or specifications, streamlining visual content creation for e-commerce and marketing.
+                            </p>
+
+                            <a class="action" href="https://creatives.collov.com/creatives" target="_blank" rel="noopener">
+                            Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/DesignGenrators/imgdg4.png" alt="imgdg4">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                #
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                               #
+                            </p>
+
+                            <a class="action" href="#" target="_blank" rel="noopener">
+                            Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/DesignGenrators/imgdg5.png" alt="imgdg5">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                #
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                #
+                            </p>
+
+                            <a class="action" href="#" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/DesignGenrators/imgdg6.png" alt="imgdg6">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                #
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                #
+                            </p>
+
+                            <a class="action" href="#" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/DesignGenrators/imgdg7.png" alt="imgdg7">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                #
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                #
+                            </p>
+
+                            <a class="action" href="#" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/DesignGenrators/imgdg8.png" alt="imgdg8">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                #
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                #
+                            </p>
+
+                            <a class="action" href="#" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/DesignGenrators/imgdg9.png" alt="imgdg9">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                #
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                #
+                            </p>
+
+                            <a class="action" href="#" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/DesignGenrators/imgdg10.png" alt="imgdg10">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                #
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                #
+                            </p>
+
+                            <a class="action" href="#" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/DesignGenrators/imgdg11.png" alt="imgdg11">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                #
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                #
+                            </p>
+
+                            <a class="action" href="#" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/DesignGenrators/imgdg12.png" alt="imgdg12">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                #
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                #
+                            </p>
+
+                            <a class="action" href="#" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-top">
+                <div class="footer-top-left">
+                    <img class="footer-logo" src="/assets/images/logo.png" alt="footer-image">
+                    <p class="footer-para">Disclosure : AI Scout is committed to provide Best Ai tools available in market for the students and the working professionals.</p>
+                </div>
+                <div class="footer-top-middle">
+                    <div class="footer-top-middle-left">
+                        <ul>
+                            <li><a href="index.html">Home</li>
+                            <li><a href="category.html">Ai categories</a></li>
+                            <li><a href="featured.html">Get Featured</a></li>
+                            <li><a href="submittools.html">Submit Tools</a></li>
+                            <li><a href="blog.html">Ai Blogs</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-top-middle-right">
+                        <ul>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="feedbackform.html">Feedback form</a></li>
+                            <li><a href="members.html">Team Members</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-top-right">
+                    <ul>
+                        <li><a href="subscribe.html">
+                            <button class="getstarted">SUBSCRIBE NOW</button>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-line"></div>
+            <div class="footer-down">
+                <div class="footer-down-left">
+                    <p class="footer-down-para">@ AI SCOUT | All rights reserved</p>
+                    <h1 class="footer-down-link"><a href="privacypolicy.html">Privacy Policies</a></h1>
+                    <h1 class="footer-down-link"><a href="termsandcondition.html">Terms and Conditions</a></h1>
+                </div>
+                <div class="footer-down-right">
+                    <ul>
+                        <li><i class="fa-brands fa-linkedin fa-2x footer-icons" title="linkedin" style="color: rgb(97, 97, 255);"></i></li>
+                        <li><i class="fa-brands fa-square-x-twitter footer-icons fa-2x" title="twitter" style="color: rgb(55, 55, 55);"></i></li>
+                        <li><i class="fa-brands fa-youtube fa-2x footer-icons" title="youtube" style="color: rgb(255, 93, 93);"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="go-to-top" id="gototop">
+        <div class="go-to-top-back">
+            <i class="fa-regular fa-circle-up fa-2x"></i>
+        </div>
+    </div>
+    
+</body>
+</html>

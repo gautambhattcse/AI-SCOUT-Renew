@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI SCOUT</title>
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+    <link rel="stylesheet" href="/css/style.css">
+    <script
+      src="https://kit.fontawesome.com/4309bb8518.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/index.js"></script>
+    <style>
+        .headings .second-heading:hover {
+            .heading-line {
+              width: 126px;
+            }
+          }
+    </style>
+</head>
+<body>
+    <div id="loader-overlay">
+        <div class="loader"></div>
+    </div>
+    <header>
+        <nav class="nav">
+            <div class="navbar">
+                <div class="nav-left">
+                    <img class="nav-logo" src="/assets/images/logo.png" alt="nav-logo">
+                </div>
+                <div class="nav-middle">
+                    <ul>
+                        <li><a href="index.html"><i class="fa-solid fa-house fa"  ></i>Home</li>
+                        <li><a href="category.html"><i class="fa-solid fa-list fa"></i>Ai categories</a></li> 
+                        <li><a href="featured.html"><i class="fa-regular fa-star nav-icon fa"></i>Get Featured</a></li>
+                        <li><a href="submittools.html"><i class="fa-solid fa-plus nav-icon fa"></i>Submit Tools</a></li>
+                        <li><a href="blog.html"><i class="fa-solid fa-blog nav-icon fa"></i>Ai Blogs</a></li>
+                    </ul>
+                </div>
+                <div class="nav-right">
+                    <a href="subscribe.html"><button class="getstarted">SUBSCRIBE NOW</button></a>
+                </div>
+            </div>
+            <div class="togglebtn">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+              <div class="dropdown-menu">
+                <ul>
+                    <li><a href="index.html"><i class="fa-solid fa-house fa"></i>Home</li>
+                    <li><a href="category.html"><i class="fa-solid fa-list fa"></i>Ai categories</a></li>
+                    <li><a href="featured.html"><i class="fa-regular fa-star nav-icon  fa"></i>Get Featured</a></li>
+                    <li><a href="submittools.html"><i class="fa-solid fa-plus nav-icon fa"></i>Submit Tools</a></li>
+                    <li><a href="blog.html"><i class="fa-solid fa-blog nav-icon  fa"></i>Ai Blogs</a></li>
+                    <li><a href="subscribe.html"><button class="getstarted">SUBSCRIBE NOW</button></a></li>
+                </ul>
+              </div>
+        </nav>
+    </header>
+    <main>
+        <section class="thirdsection" style="margin-top: 110px;">
+            <div class="headings">
+                <div class="second-heading heading " onclick="opentab('featured-tools')">
+                    <h1 style="font-size: 26px;">Gift Ideas</h1>
+                    <div class="heading-line"></div>
+                </div>
+            </div>
+            <div class="featured-tools tool-content active-tab" id="popular-tools">
+                <div class="featured-cards">
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/GiftIdeas/giftideas1.png" alt="giftideas1">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                GiftBox
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                GiftBox: Platform offering curated gift selections, personalized recommendations, and convenient delivery services for special occasions and thoughtful gifting experiences.
+                            </p>
+                            <a class="action" href="https://www.giftbox.co/" target="_blank" rel="noopener">
+                            Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/GiftIdeas/giftideas2.png" alt="giftideas2">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                CoolGiftIdeas
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                CoolGiftIdeas: Website featuring unique and creative gift suggestions for various occasions, providing inspiration and options for memorable and thoughtful presents.
+                            </p>
+
+                            <a class="action" href="https://www.coolgiftideas.io/" target="_blank" rel="noopener">
+                            Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/GiftIdeas/giftideas3.png" alt="giftideas3">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                ElfHelp.AI
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                ElfHelp.AI: Platform providing personalized assistance and guidance for holiday planning, gift selection, and festive preparations, enhancing seasonal experiences and reducing stress.
+                            </p>
+
+                            <a class="action" href="https://www.elfhelp.ai/" target="_blank" rel="noopener">
+                            Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/GiftIdeas/giftideas4.png" alt="giftideas4">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                EpicaGiftIdeas
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                EpicaGiftIdeas: AI-powered platform suggesting unique and personalized gift ideas based on recipient preferences, interests, and occasion, enhancing gifting experiences.
+                            </p>
+
+                            <a class="action" href="https://epicaigiftideas.com/" target="_blank" rel="noopener">
+                            Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/GiftIdeas/giftideas5.png" alt="giftideas5">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                GiftHuntr
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                GiftHuntr: AI-driven platform curating personalized gift recommendations based on recipient preferences, interests, and occasions, streamlining the gift selection process.
+                            </p>
+
+                            <a class="action" href="https://gifthuntr.com/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/GiftIdeas/giftideas6.png" alt="giftideas6">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Oraklon
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Oraklon: An AI-driven platform offering personalized gift suggestions based on recipient preferences, interests, and occasion, streamlining the gift selection process.
+                            </p>
+
+                            <a class="action" href="https://oraklon.com/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/GiftIdeas/giftideas7.png" alt="giftideas7">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                GiftList
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                GiftList: A digital tool for organizing and managing gift ideas, recipients, and occasions, simplifying the process of gift planning and shopping.
+                            </p>
+
+                            <a class="action" href="https://giftlist.com/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/GiftIdeas/giftideas8.png" alt="giftideas8">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                SnappyGifts
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                SnappyGifts: Platform offering a curated selection of unique and customizable gifts for corporate gifting, employee recognition, and client appreciation, streamlining the gift-giving process.
+                            </p>
+
+                            <a class="action" href="https://snappygifts.com/home" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/GiftIdeas/giftideas9.png" alt="giftideas9">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                GiftGenie.AI
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                GiftGenie.AI: AI-powered platform providing personalized gift recommendations based on recipient preferences, interests, and occasion, simplifying the gift selection process for users.
+                            </p>
+
+                            <a class="action" href="https://www.giftgenie.ai/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/GiftIdeas/giftideas10.png" alt="giftideas10">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Etsy
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Etsy: Online marketplace for handmade, vintage, and unique goods, connecting buyers with independent sellers worldwide for personalized shopping experiences.
+                            </p>
+
+                            <a class="action" href="https://www.etsy.com/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/GiftIdeas/giftideas11.png" alt="giftideas11">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Botsy.AI
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Botsy.AI: AI-powered chatbot platform offering customized solutions for businesses, enhancing customer service, sales, and engagement through automated conversational experiences.
+                            </p>
+
+                            <a class="action" href="https://botsy.ai/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/GiftIdeas/giftideas12.png" alt="giftideas12">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                GiftAssistant.io
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                GiftAssistant.io: AI-driven platform providing personalized gift recommendations based on recipient preferences, interests, and occasion, simplifying the gift selection process for users.
+                            </p>
+
+                            <a class="action" href="https://giftassistant.io/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-top">
+                <div class="footer-top-left">
+                    <img class="footer-logo" src="/assets/images/logo.png" alt="footer-image">
+                    <p class="footer-para">Disclosure : AI Scout is committed to provide Best Ai tools available in market for the students and the working professionals.</p>
+                </div>
+                <div class="footer-top-middle">
+                    <div class="footer-top-middle-left">
+                        <ul>
+                            <li><a href="index.html">Home</li>
+                            <li><a href="category.html">Ai categories</a></li>
+                            <li><a href="featured.html">Get Featured</a></li>
+                            <li><a href="submittools.html">Submit Tools</a></li>
+                            <li><a href="blog.html">Ai Blogs</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-top-middle-right">
+                        <ul>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="feedbackform.html">Feedback form</a></li>
+                            <li><a href="members.html">Team Members</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-top-right">
+                    <ul>
+                        <li><a href="subscribe.html">
+                            <button class="getstarted">SUBSCRIBE NOW</button>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-line"></div>
+            <div class="footer-down">
+                <div class="footer-down-left">
+                    <p class="footer-down-para">@ AI SCOUT | All rights reserved</p>
+                    <h1 class="footer-down-link"><a href="privacypolicy.html">Privacy Policies</a></h1>
+                    <h1 class="footer-down-link"><a href="termsandcondition.html">Terms and Conditions</a></h1>
+                </div>
+                <div class="footer-down-right">
+                    <ul>
+                        <li><i class="fa-brands fa-linkedin fa-2x footer-icons" title="linkedin" style="color: rgb(97, 97, 255);"></i></li>
+                        <li><i class="fa-brands fa-square-x-twitter footer-icons fa-2x" title="twitter" style="color: rgb(55, 55, 55);"></i></li>
+                        <li><i class="fa-brands fa-youtube fa-2x footer-icons" title="youtube" style="color: rgb(255, 93, 93);"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="go-to-top" id="gototop">
+        <div class="go-to-top-back">
+            <i class="fa-regular fa-circle-up fa-2x"></i>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI SCOUT</title>
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+    <link rel="stylesheet" href="/css/style.css">
+    <script
+      src="https://kit.fontawesome.com/4309bb8518.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/index.js"></script>
+    <style>
+        .headings .second-heading:hover {
+            .heading-line {
+              width: 95px;
+            }
+          }
+    </style>
+</head>
+<body>
+    <div id="loader-overlay">
+        <div class="loader"></div>
+    </div>
+    <header>
+        <nav class="nav">
+            <div class="navbar">
+                <div class="nav-left">
+                    <img class="nav-logo" src="/assets/images/logo.png" alt="nav-logo">
+                </div>
+                <div class="nav-middle">
+                    <ul>
+                        <li><a href="index.html"><i class="fa-solid fa-house fa"  ></i>Home</li>
+                        <li><a href="category.html"><i class="fa-solid fa-list fa"></i>Ai categories</a></li> 
+                        <li><a href="featured.html"><i class="fa-regular fa-star nav-icon fa"></i>Get Featured</a></li>
+                        <li><a href="submittools.html"><i class="fa-solid fa-plus nav-icon fa"></i>Submit Tools</a></li>
+                        <li><a href="blog.html"><i class="fa-solid fa-blog nav-icon fa"></i>Ai Blogs</a></li>
+                    </ul>
+                </div>
+                <div class="nav-right">
+                    <a href="subscribe.html"><button class="getstarted">SUBSCRIBE NOW</button></a>
+                </div>
+            </div>
+            <div class="togglebtn">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+              <div class="dropdown-menu">
+                <ul>
+                    <li><a href="index.html"><i class="fa-solid fa-house fa"></i>Home</li>
+                    <li><a href="category.html"><i class="fa-solid fa-list fa"></i>Ai categories</a></li>
+                    <li><a href="featured.html"><i class="fa-regular fa-star nav-icon  fa"></i>Get Featured</a></li>
+                    <li><a href="submittools.html"><i class="fa-solid fa-plus nav-icon fa"></i>Submit Tools</a></li>
+                    <li><a href="blog.html"><i class="fa-solid fa-blog nav-icon  fa"></i>Ai Blogs</a></li>
+                    <li><a href="subscribe.html"><button class="getstarted">SUBSCRIBE NOW</button></a></li>
+                </ul>
+              </div>
+        </nav>
+    </header>
+    <main>
+        <section class="thirdsection" style="margin-top: 110px;">
+            <div class="headings">
+                <div class="second-heading heading " onclick="opentab('featured-tools')">
+                    <h1 style="font-size: 26px;">Fitness</h1>
+                    <div class="heading-line"></div>
+                </div>
+            </div>
+            <div class="featured-tools tool-content active-tab" id="popular-tools">
+                <div class="featured-cards">
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Fitness/fitness1.png" alt="fitness1">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                ToneUp.co
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                ToneUp.co: Fitness app offering personalized workout plans, nutrition advice, and progress tracking features to help users achieve their health and fitness goals effectively.
+                            </p>
+                            <a class="action" href="https://toneup.co/" target="_blank" rel="noopener">
+                            Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Fitness/fitness2.png" alt="fitness2">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                PPLeGPT
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                PPLeGPT: Web app creating tailored workouts. Describe your experience and goals, select target area, receive personalized exercises for effective training.
+                            </p>
+
+                            <a class="action" href="https://pplegpt.vercel.app/" target="_blank" rel="noopener">
+                            Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Fitness/fitness3.png" alt="fitness3">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                GymBuddy.AI
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                GymBuddy.AI: AI-powered fitness companion providing personalized workout plans, exercise recommendations, and progress tracking for efficient and effective training.
+                            </p>
+
+                            <a class="action" href="https://www.gymbuddy.ai" target="_blank" rel="noopener">
+                            Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Fitness/fitness4.png" alt="fitness4">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                GetInShape.AI
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                GetInShape.AI: AI-driven platform offering personalized fitness plans, exercise routines, and dietary recommendations tailored to individual goals for achieving optimal health and fitness.
+                            </p>
+
+                            <a class="action" href="https://getinshape.ai" target="_blank" rel="noopener">
+                            Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Fitness/fitness5.png" alt="fitness5">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Faitness.io
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Faitness.io: Fitness platform offering personalized workout plans, exercise tracking, and nutrition guidance for achieving health and fitness goals efficiently.
+                            </p>
+
+                            <a class="action" href="https://faitness.io/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Fitness/fitness6.png" alt="fitness6">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                WeeklyWorkout.FYI
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                WeeklyWorkout.FYI: Subscription service delivering personalized weekly workout plans tailored to fitness goals and preferences, promoting consistency and progress in training.
+                            </p>
+
+                            <a class="action" href="https://www.weeklyworkout.fyi" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Fitness/fitness7.png" alt="fitness7">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                AIWOD
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                AIWOD: Tailored for bodyweight and home workouts. Ideal for busy individuals seeking varied, automated exercise routines for consistent training.
+                            </p>
+
+                            <a class="action" href="https://www.aiwod.org" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Fitness/fitness8.png" alt="fitness8">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                GymGenie.AI
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                GymGenie.AI: Personalized fitness platform generating custom workout plans for users, tailored to individual goals, preferences, and available equipment or space.
+                            </p>
+
+                            <a class="action" href="https://www.gymgenie.ai" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Fitness/fitness9.png" alt="fitness9">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Stretch.Education Fitness AI
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Stretch.Education Fitness AI Tool: Tailored for personalized fitness plans, adjusting workouts based on user preferences, goals, and available resources for effective training.
+                            </p>
+
+                            <a class="action" href="https://stretch.education/explore" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Fitness/fitness10.png" alt="fitness10">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                GymGenie.Vercel
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                GymGenie.Vercel.: Web-based fitness platform offering personalized workout plans, exercise routines, and progress tracking features for effective and convenient training.
+                            </p>
+
+                            <a class="action" href="https://gymgenie.vercel.app/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Fitness/fitness11.png" alt="fitness11">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Zing.Body.Scan
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Zing.Body.Scan by ZingProduction: Innovative body scanning technology for personalized fitness assessments, offering insights into body composition and health metrics for tailored fitness programs.
+                            </p>
+
+                            <a class="action" href="https://zing.body.scan.zingproduction.com/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Fitness/fitness12.png" alt="fitness12">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                FlexFitnessApp
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                FlexFitnessApp: Mobile application offering personalized workout plans, exercise tracking, and nutrition guidance for effective fitness goal achievement on-the-go.
+                            </p>
+
+                            <a class="action" href="https://flexfitnessapp.com/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-top">
+                <div class="footer-top-left">
+                    <img class="footer-logo" src="/assets/images/logo.png" alt="footer-image">
+                    <p class="footer-para">Disclosure : AI Scout is committed to provide Best Ai tools available in market for the students and the working professionals.</p>
+                </div>
+                <div class="footer-top-middle">
+                    <div class="footer-top-middle-left">
+                        <ul>
+                            <li><a href="index.html">Home</li>
+                            <li><a href="category.html">Ai categories</a></li>
+                            <li><a href="featured.html">Get Featured</a></li>
+                            <li><a href="submittools.html">Submit Tools</a></li>
+                            <li><a href="blog.html">Ai Blogs</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-top-middle-right">
+                        <ul>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="feedbackform.html">Feedback form</a></li>
+                            <li><a href="members.html">Team Members</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-top-right">
+                    <ul>
+                        <li><a href="subscribe.html">
+                            <button class="getstarted">SUBSCRIBE NOW</button>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-line"></div>
+            <div class="footer-down">
+                <div class="footer-down-left">
+                    <p class="footer-down-para">@ AI SCOUT | All rights reserved</p>
+                    <h1 class="footer-down-link"><a href="privacypolicy.html">Privacy Policies</a></h1>
+                    <h1 class="footer-down-link"><a href="termsandcondition.html">Terms and Conditions</a></h1>
+                </div>
+                <div class="footer-down-right">
+                    <ul>
+                        <li><i class="fa-brands fa-linkedin fa-2x footer-icons" title="linkedin" style="color: rgb(97, 97, 255);"></i></li>
+                        <li><i class="fa-brands fa-square-x-twitter footer-icons fa-2x" title="twitter" style="color: rgb(55, 55, 55);"></i></li>
+                        <li><i class="fa-brands fa-youtube fa-2x footer-icons" title="youtube" style="color: rgb(255, 93, 93);"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="go-to-top" id="gototop">
+        <div class="go-to-top-back">
+            <i class="fa-regular fa-circle-up fa-2x"></i>
+        </div>
+    </div>
+    
+</body>
+</html>

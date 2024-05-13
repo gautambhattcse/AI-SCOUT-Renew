@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI SCOUT</title>
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+    <link rel="stylesheet" href="/css/style.css">
+    <script
+      src="https://kit.fontawesome.com/4309bb8518.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/index.js"></script>
+    <style>
+        .headings .second-heading:hover {
+            .heading-line {
+              width: 257px;
+            }
+          }
+    </style>
+</head>
+<body>
+    <div id="loader-overlay">
+        <div class="loader"></div>
+    </div>
+    <header>
+        <nav class="nav">
+            <div class="navbar">
+                <div class="nav-left">
+                    <img class="nav-logo" src="/assets/images/logo.png" alt="nav-logo">
+                </div>
+                <div class="nav-middle">
+                    <ul>
+                        <li><a href="index.html"><i class="fa-solid fa-house fa"  ></i>Home</li>
+                        <li><a href="category.html"><i class="fa-solid fa-list fa"></i>Ai categories</a></li> 
+                        <li><a href="featured.html"><i class="fa-regular fa-star nav-icon fa"></i>Get Featured</a></li>
+                        <li><a href="submittools.html"><i class="fa-solid fa-plus nav-icon fa"></i>Submit Tools</a></li>
+                        <li><a href="blog.html"><i class="fa-solid fa-blog nav-icon fa"></i>Ai Blogs</a></li>
+                    </ul>
+                </div>
+                <div class="nav-right">
+                    <a href="subscribe.html"><button class="getstarted">SUBSCRIBE NOW</button></a>
+                </div>
+            </div>
+            <div class="togglebtn">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+              <div class="dropdown-menu">
+                <ul>
+                    <li><a href="index.html"><i class="fa-solid fa-house fa"></i>Home</li>
+                    <li><a href="category.html"><i class="fa-solid fa-list fa"></i>Ai categories</a></li>
+                    <li><a href="featured.html"><i class="fa-regular fa-star nav-icon  fa"></i>Get Featured</a></li>
+                    <li><a href="submittools.html"><i class="fa-solid fa-plus nav-icon fa"></i>Submit Tools</a></li>
+                    <li><a href="blog.html"><i class="fa-solid fa-blog nav-icon  fa"></i>Ai Blogs</a></li>
+                    <li><a href="subscribe.html"><button class="getstarted">SUBSCRIBE NOW</button></a></li>
+                </ul>
+              </div>
+        </nav>
+    </header>
+    <main>
+        <section class="thirdsection" style="margin-top: 110px;">
+            <div class="headings">
+                <div class="second-heading heading " onclick="opentab('featured-tools')">
+                    <h1 style="font-size: 26px;">Writing Generators</h1>
+                    <div class="heading-line"></div>
+                </div>
+            </div>
+            <div class="featured-tools tool-content active-tab" id="popular-tools">
+                <div class="featured-cards">
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/WritingGenerators/imgwg1.png" alt="imgwg1">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Jenni AI
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Jenni AI is an AI-powered writing tool that helps busy students generate ideas, optimize their writing, and improve SEO.
+                            </p>
+                            <a class="action" href="https://jenni.ai/?via=coupon&gad_source=1&gclid=Cj0KCQjwzZmwBhD8ARIsAH4v1gW25KcMOrta-Unx98rDcCegr80p2e1TPPVWurTRA_9W0HX_YLUSXfQaArIAEALw_wcB" target="_blank" rel="noopener">
+                            Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/WritingGenerators/imgwg2.png" alt="imgwg2">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                MyEssayWriter.AI
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                MyEssayWriter.AI: It understands your needs, delivering tailor-made, high-quality essays in no time.
+                            </p>
+
+                            <a class="action" href="https://www.myessaywriter.ai/" target="_blank" rel="noopener">
+                            Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/WritingGenerators/imgwg3.png" alt="imgwg3">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Writier.io
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Writier.io: Writing.io is designed to improve your writing at every stage of the creative process. 
+                            </p>
+
+                            <a class="action" href="https://writier.io/" target="_blank" rel="noopener">
+                            Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/WritingGenerators/imgwg4.png" alt="imgwg4">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Outwrite
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Outwrite: Outwrite AI writing assistant is more than just a grammar and spell checker—it helps turn your ideas into powerful sentences.
+                            </p>
+
+                            <a class="action" href="https://www.outwrite.com/" target="_blank" rel="noopener">
+                            Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/WritingGenerators/imgwg5.png" alt="imgwg5">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                AI Paragraph Generator
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                AI Paragraph Generator: Generates , rewrites and rephrases paragraphs using AI for different styles, languages and tones.
+                            </p>
+
+                            <a class="action" href="https://aiparagraphgenerator.com/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/WritingGenerators/imgwg6.png" alt="imgwg6">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Penelope AI
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Penelope AI: Penelope AI simplifies writing: Easily rewrite, summarize, paraphrase and create articles with smart AI tools in a user-friendly editor.
+                            </p>
+
+                            <a class="action" href="https://penelopeai.com/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/WritingGenerators/imgwg7.png" alt="imgwg7">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Write Tone
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Write Tone: It help you write your text naturally, using the ideal tone, vocabulary, and style for any given situation.
+                            </p>
+
+                            <a class="action" href="https://writetone.com/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/WritingGenerators/imgwg8.png" alt="imgwg8">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                EssayBot
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Essay Bot can instantly generate essays on a wide range of topics. You simply provide the topic or keyword, and it produces a well-structured essay in a matter of minutes. 
+                            </p>
+
+                            <a class="action" href="https://www.essaybot.com/articleList" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/WritingGenerators/imgwg9.png" alt="imgwg9">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Safe Spelling
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Safe Spelling: Eliminate spelling mistakes in your writing with our AI powered tool. 
+                            </p>
+
+                            <a class="action" href="https://safespelling.com/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/WritingGenerators/imgwg10.png" alt="imgwg10">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Trolly AI
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Trolly AI: You can create landing pages, blog articles, product descriptions, web pages, and possibly social media content.
+                            </p>
+
+                            <a class="action" href="https://trolly.ai/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/WritingGenerators/imgwg11.png" alt="imgwg11">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                ProWritingAid
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                ProWritingAid: With ProWritingAid, the AI writing assistant helps you tweak and alter your content rather than generating it for you. As a result, the types of content you can create using the tool are endless.
+                            </p>
+
+                            <a class="action" href="https://prowritingaid.com/?gad_source=1&gclid=Cj0KCQjw2uiwBhCXARIsACMvIU1DOqetMRVzA9ZwTW4NI90uiZ65AJ52ZJaWphKjyZ-euv9n55MFPqsaAp7SEALw_wcB" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/WritingGenerators/imgwg12.png" alt="imgwg12">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Milanote
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Milanote: Milanote is an easy-to-use tool to organize your ideas and projects into visual boards.
+                            </p>
+
+                            <a class="action" href="https://milanote.com/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-top">
+                <div class="footer-top-left">
+                    <img class="footer-logo" src="/assets/images/logo.png" alt="footer-image">
+                    <p class="footer-para">Disclosure : AI Scout is committed to provide Best Ai tools available in market for the students and the working professionals.</p>
+                </div>
+                <div class="footer-top-middle">
+                    <div class="footer-top-middle-left">
+                        <ul>
+                            <li><a href="index.html">Home</li>
+                            <li><a href="category.html">Ai categories</a></li>
+                            <li><a href="featured.html">Get Featured</a></li>
+                            <li><a href="submittools.html">Submit Tools</a></li>
+                            <li><a href="blog.html">Ai Blogs</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-top-middle-right">
+                        <ul>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="feedbackform.html">Feedback form</a></li>
+                            <li><a href="members.html">Team Members</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-top-right">
+                    <ul>
+                        <li><a href="subscribe.html">
+                            <button class="getstarted">SUBSCRIBE NOW</button>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-line"></div>
+            <div class="footer-down">
+                <div class="footer-down-left">
+                    <p class="footer-down-para">@ AI SCOUT | All rights reserved</p>
+                    <h1 class="footer-down-link"><a href="privacypolicy.html">Privacy Policies</a></h1>
+                    <h1 class="footer-down-link"><a href="termsandcondition.html">Terms and Conditions</a></h1>
+                </div>
+                <div class="footer-down-right">
+                    <ul>
+                        <li><i class="fa-brands fa-linkedin fa-2x footer-icons" title="linkedin" style="color: rgb(97, 97, 255);"></i></li>
+                        <li><i class="fa-brands fa-square-x-twitter footer-icons fa-2x" title="twitter" style="color: rgb(55, 55, 55);"></i></li>
+                        <li><i class="fa-brands fa-youtube fa-2x footer-icons" title="youtube" style="color: rgb(255, 93, 93);"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="go-to-top" id="gototop">
+        <div class="go-to-top-back">
+            <i class="fa-regular fa-circle-up fa-2x"></i>
+        </div>
+    </div>
+    
+</body>
+</html>

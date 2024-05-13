@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI SCOUT</title>
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+    <link rel="stylesheet" href="/css/style.css">
+    <script
+      src="https://kit.fontawesome.com/4309bb8518.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/index.js"></script>
+    <style>
+        .headings .second-heading:hover {
+            .heading-line {
+              width: 112px;
+            }
+          }
+    </style>
+</head>
+<body>
+    <div id="loader-overlay">
+        <div class="loader"></div>
+    </div>
+    <header>
+        <nav class="nav">
+            <div class="navbar">
+                <div class="nav-left">
+                    <img class="nav-logo" src="/assets/images/logo.png" alt="nav-logo">
+                </div>
+                <div class="nav-middle">
+                    <ul>
+                        <li><a href="index.html"><i class="fa-solid fa-house fa"  ></i>Home</li>
+                        <li><a href="category.html"><i class="fa-solid fa-list fa"></i>Ai categories</a></li> 
+                        <li><a href="featured.html"><i class="fa-regular fa-star nav-icon fa"></i>Get Featured</a></li>
+                        <li><a href="submittools.html"><i class="fa-solid fa-plus nav-icon fa"></i>Submit Tools</a></li>
+                        <li><a href="blog.html"><i class="fa-solid fa-blog nav-icon fa"></i>Ai Blogs</a></li>
+                    </ul>
+                </div>
+                <div class="nav-right">
+                    <a href="subscribe.html"><button class="getstarted">SUBSCRIBE NOW</button></a>
+                </div>
+            </div>
+            <div class="togglebtn">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+              <div class="dropdown-menu">
+                <ul>
+                    <li><a href="index.html"><i class="fa-solid fa-house fa"></i>Home</li>
+                    <li><a href="category.html"><i class="fa-solid fa-list fa"></i>Ai categories</a></li>
+                    <li><a href="featured.html"><i class="fa-regular fa-star nav-icon  fa"></i>Get Featured</a></li>
+                    <li><a href="submittools.html"><i class="fa-solid fa-plus nav-icon fa"></i>Submit Tools</a></li>
+                    <li><a href="blog.html"><i class="fa-solid fa-blog nav-icon  fa"></i>Ai Blogs</a></li>
+                    <li><a href="subscribe.html"><button class="getstarted">SUBSCRIBE NOW</button></a></li>
+                </ul>
+              </div>
+        </nav>
+    </header>
+    <main>
+        <section class="thirdsection" style="margin-top: 110px;">
+            <div class="headings">
+                <div class="second-heading heading " onclick="opentab('featured-tools')">
+                    <h1 style="font-size: 26px;">Drawing</h1>
+                    <div class="heading-line"></div>
+                </div>
+            </div>
+            <div class="featured-tools tool-content active-tab" id="popular-tools">
+                <div class="featured-cards">
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Drawing/imgd1.png" alt="imgd1">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Drawing Prompt
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Drawing Prompt: AI tool generating creative prompts or ideas to inspire digital artwork, aiding artists in overcoming creative blocks and fostering artistic exploration.
+                            </p>
+                            <a class="action" href="https://drawing-prompt.com/en" target="_blank" rel="noopener">
+                            Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Drawing/imgd2.png" alt="imgd2">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                SketchAR
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                SketchAR: AI-powered mobile app assisting users in sketching by projecting virtual images onto paper, guiding artistic creation and improving drawing skills.
+                            </p>
+
+                            <a class="action" href="https://sketchar.io" target="_blank" rel="noopener">
+                            Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Drawing/imgd3.png" alt="imgd3">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Sketch AI
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Sketch AI: AI tool aiding in digital sketching by offering real-time suggestions, guidance, and auto-correction, enhancing artistic expression and improving drawing skills.
+                            </p>
+
+                            <a class="action" href="https://appintro.io/sketch-ai-drawing-to-art?via=aitoolhunt&utm_source=aitoolhunt&ref=aitoolhunt&fpr=aitoolhunt" target="_blank" rel="noopener">
+                            Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Drawing/imgd4.png" alt="imgd4">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Drawthings.ai
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Drawthings.ai: Drawthings.ai is a creative AI tool facilitating easy creation of digital illustrations, aiding in graphic design and visual content creation.
+                            </p>
+
+                            <a class="action" href="https://drawthings.ai/" target="_blank" rel="noopener">
+                            Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Drawing/imgd5.png" alt="imgd5">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Picpik.ai
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Picpik.ai: Picpik.ai is an AI tool for image recognition and analysis, enabling accurate tagging, categorization, and organization of large image datasets.
+                            </p>
+
+                            <a class="action" href="https://www.picpik.ai/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Drawing/imgd6.png" alt="imgd6">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                ScribbleDiffusion
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                ScribbleDiffusion: Scribblediffusion is an AI-based platform for artistic expression, generating diverse and unique digital art pieces from user input or prompts.
+                            </p>
+
+                            <a class="action" href="https://scribblediffusion.com" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Drawing/imgd7.png" alt="imgd7">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Sketch.metademolab
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Sketch.metademolab: Sketch.metademolab is an AI-powered sketching tool, assisting users in creating digital sketches with intelligent suggestions and helpful prompts for enhancement.
+                            </p>
+
+                            <a class="action" href="https://sketch.metademolab.com" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Drawing/imgd8.png" alt="imgd8">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Autodraw
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Autodraw: Autodraw is an intuitive AI sketching tool by Google, instantly recognizing and suggesting drawings, simplifying the creation process for users.
+                            </p>
+
+                            <a class="action" href="https://www.autodraw.com/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Drawing/imgd9.png" alt="imgd9">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                SketchGPT.xyz
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                SketchGPT.xyz: AI-powered platform for generating sketches from text prompts, utilizing natural language processing to interpret descriptions and visualize concepts accurately.
+                            </p>
+
+                            <a class="action" href="https://sketchgpt.xyz/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Drawing/imgd10.png" alt="imgd10">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Animagic
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Animagic: AI-driven platform offering tools for creating animated content, including character animation, scene creation, and special effects, enhancing creativity and storytelling.
+                            </p>
+
+                            <a class="action" href="https://animagic.app/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Drawing/imgd11.png" alt="imgd11">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Exp.Graymatter.ai
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Exp.Graymatter.ai: AI platform specializing in data analysis and insights generation, leveraging advanced algorithms to extract valuable information from large datasets efficiently.
+                            </p>
+
+                            <a class="action" href="https://exp.graymatter.ai/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/Drawing/imgd12.png" alt="imgd12">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Dream.ai
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Dream.ai: AI-powered platform for generating and enhancing images, offering creative tools and filters to transform photos and illustrations into dreamlike visuals.
+                            </p>
+
+                            <a class="action" href="https://dream.ai/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-top">
+                <div class="footer-top-left">
+                    <img class="footer-logo" src="/assets/images/logo.png" alt="footer-image">
+                    <p class="footer-para">Disclosure : AI Scout is committed to provide Best Ai tools available in market for the students and the working professionals.</p>
+                </div>
+                <div class="footer-top-middle">
+                    <div class="footer-top-middle-left">
+                        <ul>
+                            <li><a href="index.html">Home</li>
+                            <li><a href="category.html">Ai categories</a></li>
+                            <li><a href="featured.html">Get Featured</a></li>
+                            <li><a href="submittools.html">Submit Tools</a></li>
+                            <li><a href="blog.html">Ai Blogs</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-top-middle-right">
+                        <ul>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="feedbackform.html">Feedback form</a></li>
+                            <li><a href="members.html">Team Members</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-top-right">
+                    <ul>
+                        <li><a href="subscribe.html">
+                            <button class="getstarted">SUBSCRIBE NOW</button>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-line"></div>
+            <div class="footer-down">
+                <div class="footer-down-left">
+                    <p class="footer-down-para">@ AI SCOUT | All rights reserved</p>
+                    <h1 class="footer-down-link"><a href="privacypolicy.html">Privacy Policies</a></h1>
+                    <h1 class="footer-down-link"><a href="termsandcondition.html">Terms and Conditions</a></h1>
+                </div>
+                <div class="footer-down-right">
+                    <ul>
+                        <li><i class="fa-brands fa-linkedin fa-2x footer-icons" title="linkedin" style="color: rgb(97, 97, 255);"></i></li>
+                        <li><i class="fa-brands fa-square-x-twitter footer-icons fa-2x" title="twitter" style="color: rgb(55, 55, 55);"></i></li>
+                        <li><i class="fa-brands fa-youtube fa-2x footer-icons" title="youtube" style="color: rgb(255, 93, 93);"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="go-to-top" id="gototop">
+        <div class="go-to-top-back">
+            <i class="fa-regular fa-circle-up fa-2x"></i>
+        </div>
+    </div>
+    
+</body>
+</html>

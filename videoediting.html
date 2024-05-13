@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI SCOUT</title>
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+    <link rel="stylesheet" href="/css/style.css">
+    <script
+      src="https://kit.fontawesome.com/4309bb8518.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/index.js"></script>
+    <style>
+        .headings .second-heading:hover {
+            .heading-line {
+              width: 175px;
+            }
+          }
+    </style>
+</head>
+<body>
+    <div id="loader-overlay">
+        <div class="loader"></div>
+    </div>
+    <header>
+        <nav class="nav">
+            <div class="navbar">
+                <div class="nav-left">
+                    <img class="nav-logo" src="/assets/images/logo.png" alt="nav-logo">
+                </div>
+                <div class="nav-middle">
+                    <ul>
+                        <li><a href="index.html"><i class="fa-solid fa-house fa"  ></i>Home</li>
+                        <li><a href="category.html"><i class="fa-solid fa-list fa"></i>Ai categories</a></li> 
+                        <li><a href="featured.html"><i class="fa-regular fa-star nav-icon fa"></i>Get Featured</a></li>
+                        <li><a href="submittools.html"><i class="fa-solid fa-plus nav-icon fa"></i>Submit Tools</a></li>
+                        <li><a href="blog.html"><i class="fa-solid fa-blog nav-icon fa"></i>Ai Blogs</a></li>
+                    </ul>
+                </div>
+                <div class="nav-right">
+                    <a href="subscribe.html"><button class="getstarted">SUBSCRIBE NOW</button></a>
+                </div>
+            </div>
+            <div class="togglebtn">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+              <div class="dropdown-menu">
+                <ul>
+                    <li><a href="index.html"><i class="fa-solid fa-house fa"></i>Home</li>
+                    <li><a href="category.html"><i class="fa-solid fa-list fa"></i>Ai categories</a></li>
+                    <li><a href="featured.html"><i class="fa-regular fa-star nav-icon  fa"></i>Get Featured</a></li>
+                    <li><a href="submittools.html"><i class="fa-solid fa-plus nav-icon fa"></i>Submit Tools</a></li>
+                    <li><a href="blog.html"><i class="fa-solid fa-blog nav-icon  fa"></i>Ai Blogs</a></li>
+                    <li><a href="subscribe.html"><button class="getstarted">SUBSCRIBE NOW</button></a></li>
+                </ul>
+              </div>
+        </nav>
+    </header>
+    <main>
+        <section class="thirdsection" style="margin-top: 110px;">
+            <div class="headings">
+                <div class="second-heading heading " onclick="opentab('featured-tools')">
+                    <h1 style="font-size: 26px;">Video Editing</h1>
+                    <div class="heading-line"></div>
+                </div>
+            </div>
+            <div class="featured-tools tool-content active-tab" id="popular-tools">
+                <div class="featured-cards">
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/VideoEnhancers/imgve1.png" alt="imgve1">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Flixier
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Flixier: Flixier is a free online video editor that enables users to create and edit videos easily in their browser. 
+                            </p>
+                            <a class="action" href="https://flixier.com/tools/video-enhancer" target="_blank" rel="noopener">
+                            Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/VideoEnhancers/imgve2.png" alt="imgve2">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Cutout.pro
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Cutout.pro: Cutout.pro is a leading product created by LibAI team, leveraging the power of artificial intelligence and computer vision to deliver a wide range of products that make your life much easier and your work more productive.
+                            </p>
+
+                            <a class="action" href="https://www.cutout.pro/ai-video-enhancer" target="_blank" rel="noopener">
+                            Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/VideoEnhancers/imgve3.png" alt="imgve3">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Vmake.ai
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Vmake.ai: Vmake AI specializes in converting standard clothing images into customized AI-generated model visuals. 
+                            </p>
+
+                            <a class="action" href="https://vmake.ai/video-enhancer" target="_blank" rel="noopener">
+                            Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/VideoEnhancers/imgve4.png" alt="imgve4">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Kapwing
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Kapwing: Kapwing's AI video generator makes high-quality videos for you with short clips, subtitles, background music, and transitions
+                            </p>
+
+                            <a class="action" href="https://www.kapwing.com/tools/video-enhancer" target="_blank" rel="noopener">
+                            Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/VideoEnhancers/imgve5.png" alt="imgve5">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Clideo
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Clideo: Clideo is an online platform that provides a range of tools for editing video, audio, and images.
+                            </p>
+
+                            <a class="action" href="https://clideo.com/video-enhancer" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-card">
+                        <div class="image">
+                            <img src="/assets/images/VideoEnhancers/imgve6.png" alt="imgve6">
+                        </div>
+                        <div class="content">
+                            <a href="#">
+                            <span class="title">
+                                Fotor
+                            </span>
+                            </a>
+
+                            <p class="desc">
+                                Fotor: Fotor is a photo editing and graphic designing solution that helps businesses create cards, invitations and fliers and add special effects to images.
+                            </p>
+
+                            <a class="action" href="https://www.fotor.com/video-enhancer/" target="_blank" rel="noopener">
+                                Visit Now
+                            <span aria-hidden="true">
+                                →
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-cards">
+                        <div class="featured-card">
+                            <div class="image">
+                                <img src="/assets/images/VideoGenerators/imgvg1.png" alt="imgvg1">
+                            </div>
+                            <div class="content">
+                                <a href="#">
+                                <span class="title">
+                                    Descript
+                                </span>
+                                </a>
+    
+                                <p class="desc">
+                                    Descript: Descript is the only tool you need to write, record, transcribe, edit, collaborate, and share your videos and podcasts.
+                                </p>
+                                <a class="action" href="https://www.descript.com/?pscd=get.descript.com&ps_partner_key=Ym9tbG9uZzg5OTc&ps_xid=tHYpcl57rEUPou&gsxid=tHYpcl57rEUPou&gspk=Ym9tbG9uZzg5OTc&gad_source=1&gclid=Cj0KCQjwiMmwBhDmARIsABeQ7xQwcSJjdrBUrG4343T1MBdQOoh3kh-9R24H6pdrES9muwDM43opAuUaAkzCEALw_wcB" target="_blank" rel="noopener">
+                                Visit Now
+                                <span aria-hidden="true">
+                                    →
+                                </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="featured-card">
+                            <div class="image">
+                                <img src="/assets/images/VideoGenerators/imgvg2.png" alt="imgvg2">
+                            </div>
+                            <div class="content">
+                                <a href="#">
+                                <span class="title">
+                                    Wondershare Filmora
+                                </span>
+                                </a>
+    
+                                <p class="desc">
+                                    Wondershare Filmora: Wondershare Filmora is a cross-platform for making videos anywhere for all creators! You can easily make impressive and captivating videos using Filmora. 
+                                </p>
+    
+                                <a class="action" href="https://filmora.wondershare.net/filmora-video-editor.html?adgroup=commonlp&gad_source=1&gclid=Cj0KCQjwiMmwBhDmARIsABeQ7xTMIoLfXG8N2FksRWMAGtiaDuW6QojtMYw-ftGVPpyfyPsYKvHFt7QaAkcREALw_wcB" target="_blank" rel="noopener">
+                                Visit Now
+                                <span aria-hidden="true">
+                                    →
+                                </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="featured-card">
+                            <div class="image">
+                                <img src="/assets/images/VideoGenerators/imgvg3.png" alt="imgvg3">
+                            </div>
+                            <div class="content">
+                                <a href="#">
+                                <span class="title">
+                                    Runway
+                                </span>
+                                </a>
+    
+                                <p class="desc">
+                                    Runway: A new suite of creative tools designed to turn the ideas in your head into reality. All made possible with AI models that can understand and generate worlds. 
+                                </p>
+    
+                                <a class="action" href="https://runwayml.com/" target="_blank" rel="noopener">
+                                Visit Now
+                                <span aria-hidden="true">
+                                    →
+                                </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="featured-card">
+                            <div class="image">
+                                <img src="/assets/images/VideoGenerators/imgvg4.png" alt="imgvg4">
+                            </div>
+                            <div class="content">
+                                <a href="#">
+                                <span class="title">
+                                    Peech AI
+                                </span>
+                                </a>
+    
+                                <p class="desc">
+                                    Peech: The ultimate AI video platform for marketers. Streamline video editing and optimize content marketing with our advanced NLP technology.
+                                </p>
+    
+                                <a class="action" href="https://www.peech-ai.com/" target="_blank" rel="noopener">
+                                Visit Now
+                                <span aria-hidden="true">
+                                    →
+                                </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="featured-card">
+                            <div class="image">
+                                <img src="/assets/images/VideoGenerators/imgvg5.png" alt="imgvg5">
+                            </div>
+                            <div class="content">
+                                <a href="#">
+                                <span class="title">
+                                    Fliki
+                                </span>
+                                </a>
+    
+                                <p class="desc">
+                                    Fliki: Fliki is an text to video and text to speech creator that helps you create quality audio and video content in minutes.
+                                </p>
+    
+                                <a class="action" href="https://fliki.ai/" target="_blank" rel="noopener">
+                                    Visit Now
+                                <span aria-hidden="true">
+                                    →
+                                </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="featured-card">
+                            <div class="image">
+                                <img src="/assets/images/VideoGenerators/imgvg6.png" alt="imgvg6">
+                            </div>
+                            <div class="content">
+                                <a href="#">
+                                <span class="title">
+                                    Visla
+                                </span>
+                                </a>
+    
+                                <p class="desc">
+                                    Visla: Visla is a video editing company that helps clients create polished videos at scale, instantly, and effortlessly. 
+                                </p>
+    
+                                <a class="action" href="https://www.visla.us/" target="_blank" rel="noopener">
+                                    Visit Now
+                                <span aria-hidden="true">
+                                    →
+                                </span>
+                                </a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-top">
+                <div class="footer-top-left">
+                    <img class="footer-logo" src="/assets/images/logo.png" alt="footer-image">
+                    <p class="footer-para">Disclosure : AI Scout is committed to provide Best Ai tools available in market for the students and the working professionals.</p>
+                </div>
+                <div class="footer-top-middle">
+                    <div class="footer-top-middle-left">
+                        <ul>
+                            <li><a href="index.html">Home</li>
+                            <li><a href="category.html">Ai categories</a></li>
+                            <li><a href="featured.html">Get Featured</a></li>
+                            <li><a href="submittools.html">Submit Tools</a></li>
+                            <li><a href="blog.html">Ai Blogs</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-top-middle-right">
+                        <ul>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="feedbackform.html">Feedback form</a></li>
+                            <li><a href="members.html">Team Members</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-top-right">
+                    <ul>
+                        <li><a href="subscribe.html">
+                            <button class="getstarted">SUBSCRIBE NOW</button>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-line"></div>
+            <div class="footer-down">
+                <div class="footer-down-left">
+                    <p class="footer-down-para">@ AI SCOUT | All rights reserved</p>
+                    <h1 class="footer-down-link"><a href="privacypolicy.html">Privacy Policies</a></h1>
+                    <h1 class="footer-down-link"><a href="termsandcondition.html">Terms and Conditions</a></h1>
+                </div>
+                <div class="footer-down-right">
+                    <ul>
+                        <li><i class="fa-brands fa-linkedin fa-2x footer-icons" title="linkedin" style="color: rgb(97, 97, 255);"></i></li>
+                        <li><i class="fa-brands fa-square-x-twitter footer-icons fa-2x" title="twitter" style="color: rgb(55, 55, 55);"></i></li>
+                        <li><i class="fa-brands fa-youtube fa-2x footer-icons" title="youtube" style="color: rgb(255, 93, 93);"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="go-to-top" id="gototop">
+        <div class="go-to-top-back">
+            <i class="fa-regular fa-circle-up fa-2x"></i>
+        </div>
+    </div>
+    
+</body>
+</html>
